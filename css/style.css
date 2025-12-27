@@ -1,5 +1,7 @@
 /* title */
-
+*{
+    scroll-behavior: smooth
+}
 .bg-image {
     background: linear-gradient(#17171789, #1616167b), url("../img/hero_1.jpg")center/cover;
     height: 100vh;
@@ -479,7 +481,7 @@ form{
 
 input{
     border-radius: 25px;
-    border-color: #e5f3ff;
+    border-color: #bbbdc0;
     padding: 10px;
 }
 
