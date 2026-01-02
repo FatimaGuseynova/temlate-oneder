@@ -1,7 +1,14 @@
 /* title */
-*{
-    scroll-behavior: smooth
+* {
+    scroll-behavior: smooth;
+    
 }
+
+
+h1, h2, h3, h4, h5, h6, p, a, span, li {
+    font-family: "Work Sans", Helvetica, Arial, sans-serif!important;
+}
+
 .bg-image {
     background: linear-gradient(#17171789, #1616167b), url("../img/hero_1.jpg")center/cover;
     height: 100vh;
@@ -162,7 +169,7 @@ h1 {
 }
 
 .text h2 {
-    font: 800 30px arial;
+    font: 800 40px arial;
     color: #007bff;
     padding-bottom: 15px;
 }
@@ -218,6 +225,7 @@ h1 {
     gap: 40px;
 
 }
+ 
 
 .imagew img {
     max-height: 300px;
@@ -385,6 +393,7 @@ h1 {
 
 .image-small img {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .card-image h2 {
@@ -418,18 +427,18 @@ h1 {
     display: flex;
 }
 
-.card-text a{
+.card-text a {
     text-decoration: none;
     font: 400 16px arial;
     color: #007bff;
     transition: .4s;
 }
 
-.card-text a:hover{
+.card-text a:hover {
     color: #004d9f;
 }
 
-.card-text p{
+.card-text p {
     font: 400 17px arial;
     color: #808080;
     padding: 20px 0 15px 0;
@@ -439,69 +448,74 @@ h1 {
 
 /* nineth section */
 
-.icons-text{
+.icons-text {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 0 20px;
 }
-.icon-text{
+
+.icon-text {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    
+
 }
 
-.icon-text i{
+.icon-text i {
     font-size: 18px;
     color: #007bff;
     margin-bottom: 15px;
 }
 
-.icon-text p{
+.icon-text p {
     color: #6c757d;
-    font: 400 16px arial;
+    font: 400 15px arial;
     line-height: 25px;
 }
 
-.icon-text a{
+.icon-text a {
     color: #007bff;
     text-decoration: none;
     font: 400 16px arial;
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     border: 1px solid #fff;
     background-color: #fff;
     margin-top: 25px;
-    padding: 30px;
+    padding: 40px;
 }
 
-input{
+input {
     border-radius: 25px;
-    border-color: #bbbdc0;
+    border-color: white;
     padding: 10px;
 }
 
-form h2{
-    font: 400 27px arial;
+form h2 {
+    font: 400 25px arial;
     padding-bottom: 25px;
-    
+
 }
 
-.inlinef{
+.inlinef {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-form p{
+
+form p {
     font: 400 17px arial;
     margin: 15px 0 10px 0;
 }
 
-textarea{
+textarea {
     border-radius: 25px;
     height: 100px;
     padding: 10px;
@@ -510,72 +524,74 @@ textarea{
 
 /* footer */
 
-.bg-color1{
+.bg-color1 {
     background-color: #3f4245;
 }
 
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 80px 0;
 }
 
 
-.footer h4{
-    padding-bottom:20px ;
+.footer h4 {
+    padding-bottom: 20px;
     color: #fff;
     font: 400 21px arial;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: space-between;
     width: 100px;
 }
 
-.input{
+.input {
     display: flex;
 }
 
-input{
+input {
     border-radius: 20px;
-    border-color: #848484;
-    
+    border-color: rgb(199, 199, 199);
+
 }
 
-.input button{
+.input button {
     background-color: #fff;
     padding: 10px;
     color: #000;
     border-radius: 20px;
 }
 
-.first p{
+.first p {
     color: #848484;
     font: 400 16px arial;
     padding-bottom: 10px;
+    line-height: 30px;
 }
 
-.first a{
+.first a {
     text-decoration: none;
     color: #848484;
     transition: .4s;
 }
 
-.first a:hover{
+.first a:hover {
     color: #fff;
 }
 
-.first i:hover{
+.first i:hover {
     color: #fff;
 }
 
-.first[type="center"] p{
+.first[type="center"] p {
     margin-top: 30px;
     text-align: center;
 }
-hr{
+
+hr {
     font-size: 1px;
     background-color: #808080;
     border-color: #808080;
