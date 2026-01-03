@@ -324,10 +324,11 @@ h1 {
     text-align: center;
     flex-direction: column;
     padding: 40px;
+    font-size: larger;
 }
 
 .card h2 {
-    font: 400 25px arial;
+    font: 400 35px arial;
     color: #000;
     padding-bottom: 15px;
 }
@@ -338,7 +339,7 @@ h1 {
 }
 
 .inline h6 {
-    font: 500 40px arial;
+    font: 500 50px arial;
     color: #007bff;
 
 }
@@ -351,7 +352,7 @@ h1 {
 .card p {
     color: #808080;
     font: 400 16px arial;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .card a {
